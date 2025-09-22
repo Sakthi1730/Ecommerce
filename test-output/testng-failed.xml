@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoBlazeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TabletView(failed)">
+    <parameter name="viewMode" value="TABLET"/>
+    <classes>
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <methods>
+          <include name="launchChromeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="navigationTest"/>
+          <include name="getUrl"/>
+        </methods>
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </classes>
+  </test> <!-- TabletView(failed) -->
+  <test thread-count="5" name="MobileView(failed)">
+    <parameter name="viewMode" value="MOBILE"/>
+    <classes>
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <methods>
+          <include name="RegisterWithExistingUser"/>
+          <include name="PlaceOrderWithValidDetails"/>
+          <include name="launchChromeBrowser"/>
+          <include name="LoginAfterEmptyRegistration"/>
+          <include name="RegisterWithEmptyField"/>
+          <include name="closeBrowser"/>
+          <include name="navigationTest"/>
+          <include name="LoginwithEmptyUserName"/>
+          <include name="getUrl"/>
+        </methods>
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </classes>
+  </test> <!-- MobileView(failed) -->
+</suite> <!-- Failed suite [DemoBlazeSuite] -->

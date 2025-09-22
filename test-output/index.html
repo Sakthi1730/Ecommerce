@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoBlazeSuite" class="navigator-link">
+              <span class="suite-name border-failed">DemoBlazeSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoBlazeSuite" class="navigator-link ">
+                    <span>D:\Program Files\DemoEcommerce\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoBlazeSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoBlazeSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoBlazeSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoBlazeSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoBlazeSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoBlazeSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 6 failed,  1 skipped,  35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="hide-methods failed suite-DemoBlazeSuite"> (hide)</a> <!-- hide-methods failed suite-DemoBlazeSuite -->
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="show-methods failed suite-DemoBlazeSuite"> (show)</a> <!-- show-methods failed suite-DemoBlazeSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoBlazeSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginwithEmptyUserName">LoginwithEmptyUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="PlaceOrderWithValidDetails">PlaceOrderWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithEmptyField">RegisterWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithExistingUser">RegisterWithExistingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="navigationTest">navigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="navigationTest">navigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoBlazeSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="hide-methods skipped suite-DemoBlazeSuite"> (hide)</a> <!-- hide-methods skipped suite-DemoBlazeSuite -->
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="show-methods skipped suite-DemoBlazeSuite"> (show)</a> <!-- show-methods skipped suite-DemoBlazeSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-DemoBlazeSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginAfterEmptyRegistration">LoginAfterEmptyRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DemoBlazeSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="hide-methods passed suite-DemoBlazeSuite"> (hide)</a> <!-- hide-methods passed suite-DemoBlazeSuite -->
+                      <a href="#" panel-name="suite-DemoBlazeSuite" class="show-methods passed suite-DemoBlazeSuite"> (show)</a> <!-- show-methods passed suite-DemoBlazeSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoBlazeSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddMultipleProdToCart">AddMultipleProdToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddMultipleProdToCart">AddMultipleProdToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddMultipleProdToCart">AddMultipleProdToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddSingleProducttocart">AddSingleProducttocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddSingleProducttocart">AddSingleProducttocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="AddSingleProducttocart">AddSingleProducttocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="BrowseProductCatalog">BrowseProductCatalog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="BrowseProductCatalog">BrowseProductCatalog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="BrowseProductCatalog">BrowseProductCatalog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="GetDataFromExcel">GetDataFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="GetDataFromExcel">GetDataFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="GetDataFromExcel">GetDataFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginAfterEmptyRegistration">LoginAfterEmptyRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginAfterEmptyRegistration">LoginAfterEmptyRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginwithEmptyUserName">LoginwithEmptyUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="LoginwithEmptyUserName">LoginwithEmptyUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="PlaceOrderWithValidDetails">PlaceOrderWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="PlaceOrderWithValidDetails">PlaceOrderWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithEmptyField">RegisterWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithEmptyField">RegisterWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithExistingUser">RegisterWithExistingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterWithExistingUser">RegisterWithExistingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterationFromDB">RegisterationFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterationFromDB">RegisterationFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RegisterationFromDB">RegisterationFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RemoveProductFromCart">RemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RemoveProductFromCart">RemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="RemoveProductFromCart">RemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="invalidUsernameandPwdTest">invalidUsernameandPwdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="invalidUsernameandPwdTest">invalidUsernameandPwdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="invalidUsernameandPwdTest">invalidUsernameandPwdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlazeSuite" title="PageObjectTest.DemoBlazeTestNG" class="method navigator-link" hash-for-method="navigationTest">navigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoBlazeSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoBlazeSuite" class="panel DemoBlazeSuite">
+          <div class="suite-DemoBlazeSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PageObjectTest.DemoBlazeTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithEmptyUserName">
+                  </a> <!-- LoginwithEmptyUserName -->
+                  <span class="method-name">LoginwithEmptyUserName</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -&gt; xpath: //div[@Id=&quot;logInModal&quot;]//div[@class=&apos;modal-footer&apos;]//button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.LoginPage.doLoginWithoutUserName(LoginPage.java:62)
+	at PageObjectTest.DemoBlazeTestNG.LoginwithEmptyUserName(DemoBlazeTestNG.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderWithValidDetails">
+                  </a> <!-- PlaceOrderWithValidDetails -->
+                  <span class="method-name">PlaceOrderWithValidDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -&gt; xpath: //input[@id=&quot;name&quot;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.OrderFunctionality.placeOrderwithvalidDetails(OrderFunctionality.java:61)
+	at PageObjectTest.DemoBlazeTestNG.PlaceOrderWithValidDetails(DemoBlazeTestNG.java:169)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithEmptyField">
+                  </a> <!-- RegisterWithEmptyField -->
+                  <span class="method-name">RegisterWithEmptyField</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -&gt; xpath: //input[@id=&apos;sign-username&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.RegistrationPage.SignUpWithEmptyField(RegistrationPage.java:65)
+	at PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField(DemoBlazeTestNG.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithExistingUser">
+                  </a> <!-- RegisterWithExistingUser -->
+                  <span class="method-name">RegisterWithExistingUser</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: signInModal (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.RegistrationPage.RegisterationWithexistingUSer(RegistrationPage.java:53)
+	at PageObjectTest.DemoBlazeTestNG.RegisterWithExistingUser(DemoBlazeTestNG.java:126)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationTest">
+                  </a> <!-- navigationTest -->
+                  <span class="method-name">navigationTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0879cfea241f31a7f3d741d15e6e1afb)] -&gt; xpath: //h5[text()=&quot;New message&quot;]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58532/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0879cfea241f31a7f3d741d15e6e1afb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.CommonPage.NavigationUsingNavbar(CommonPage.java:72)
+	at PageObjectTest.DemoBlazeTestNG.navigationTest(DemoBlazeTestNG.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationTest">
+                  </a> <!-- navigationTest -->
+                  <span class="method-name">navigationTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -&gt; xpath: //h5[text()=&quot;New message&quot;]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjectEcommerce.CommonPage.NavigationUsingNavbar(CommonPage.java:72)
+	at PageObjectTest.DemoBlazeTestNG.navigationTest(DemoBlazeTestNG.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlazeSuite-class-failed -->
+          <div class="suite-DemoBlazeSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">PageObjectTest.DemoBlazeTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAfterEmptyRegistration">
+                  </a> <!-- LoginAfterEmptyRegistration -->
+                  <span class="method-name">LoginAfterEmptyRegistration</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PageObjectTest.DemoBlazeTestNG.LoginAfterEmptyRegistration() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5 depends on not successfully finished methods 
+[PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlazeSuite-class-skipped -->
+          <div class="suite-DemoBlazeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageObjectTest.DemoBlazeTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMultipleProdToCart">
+                  </a> <!-- AddMultipleProdToCart -->
+                  <span class="method-name">AddMultipleProdToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMultipleProdToCart">
+                  </a> <!-- AddMultipleProdToCart -->
+                  <span class="method-name">AddMultipleProdToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMultipleProdToCart">
+                  </a> <!-- AddMultipleProdToCart -->
+                  <span class="method-name">AddMultipleProdToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSingleProducttocart">
+                  </a> <!-- AddSingleProducttocart -->
+                  <span class="method-name">AddSingleProducttocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSingleProducttocart">
+                  </a> <!-- AddSingleProducttocart -->
+                  <span class="method-name">AddSingleProducttocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSingleProducttocart">
+                  </a> <!-- AddSingleProducttocart -->
+                  <span class="method-name">AddSingleProducttocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowseProductCatalog">
+                  </a> <!-- BrowseProductCatalog -->
+                  <span class="method-name">BrowseProductCatalog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowseProductCatalog">
+                  </a> <!-- BrowseProductCatalog -->
+                  <span class="method-name">BrowseProductCatalog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowseProductCatalog">
+                  </a> <!-- BrowseProductCatalog -->
+                  <span class="method-name">BrowseProductCatalog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDataFromExcel">
+                  </a> <!-- GetDataFromExcel -->
+                  <span class="method-name">GetDataFromExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDataFromExcel">
+                  </a> <!-- GetDataFromExcel -->
+                  <span class="method-name">GetDataFromExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDataFromExcel">
+                  </a> <!-- GetDataFromExcel -->
+                  <span class="method-name">GetDataFromExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAfterEmptyRegistration">
+                  </a> <!-- LoginAfterEmptyRegistration -->
+                  <span class="method-name">LoginAfterEmptyRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAfterEmptyRegistration">
+                  </a> <!-- LoginAfterEmptyRegistration -->
+                  <span class="method-name">LoginAfterEmptyRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest">
+                  </a> <!-- Logintest -->
+                  <span class="method-name">Logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest">
+                  </a> <!-- Logintest -->
+                  <span class="method-name">Logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest">
+                  </a> <!-- Logintest -->
+                  <span class="method-name">Logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithEmptyUserName">
+                  </a> <!-- LoginwithEmptyUserName -->
+                  <span class="method-name">LoginwithEmptyUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithEmptyUserName">
+                  </a> <!-- LoginwithEmptyUserName -->
+                  <span class="method-name">LoginwithEmptyUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderWithValidDetails">
+                  </a> <!-- PlaceOrderWithValidDetails -->
+                  <span class="method-name">PlaceOrderWithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderWithValidDetails">
+                  </a> <!-- PlaceOrderWithValidDetails -->
+                  <span class="method-name">PlaceOrderWithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithEmptyField">
+                  </a> <!-- RegisterWithEmptyField -->
+                  <span class="method-name">RegisterWithEmptyField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithEmptyField">
+                  </a> <!-- RegisterWithEmptyField -->
+                  <span class="method-name">RegisterWithEmptyField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithExistingUser">
+                  </a> <!-- RegisterWithExistingUser -->
+                  <span class="method-name">RegisterWithExistingUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithExistingUser">
+                  </a> <!-- RegisterWithExistingUser -->
+                  <span class="method-name">RegisterWithExistingUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterationFromDB">
+                  </a> <!-- RegisterationFromDB -->
+                  <span class="method-name">RegisterationFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterationFromDB">
+                  </a> <!-- RegisterationFromDB -->
+                  <span class="method-name">RegisterationFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterationFromDB">
+                  </a> <!-- RegisterationFromDB -->
+                  <span class="method-name">RegisterationFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveProductFromCart">
+                  </a> <!-- RemoveProductFromCart -->
+                  <span class="method-name">RemoveProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveProductFromCart">
+                  </a> <!-- RemoveProductFromCart -->
+                  <span class="method-name">RemoveProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveProductFromCart">
+                  </a> <!-- RemoveProductFromCart -->
+                  <span class="method-name">RemoveProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameandPwdTest">
+                  </a> <!-- invalidUsernameandPwdTest -->
+                  <span class="method-name">invalidUsernameandPwdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameandPwdTest">
+                  </a> <!-- invalidUsernameandPwdTest -->
+                  <span class="method-name">invalidUsernameandPwdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameandPwdTest">
+                  </a> <!-- invalidUsernameandPwdTest -->
+                  <span class="method-name">invalidUsernameandPwdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationTest">
+                  </a> <!-- navigationTest -->
+                  <span class="method-name">navigationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlazeSuite-class-passed -->
+        </div> <!-- panel DemoBlazeSuite -->
+        <div panel-name="test-xml-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Program Files\DemoEcommerce\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoBlazeSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TabletView&quot;&gt;
+    &lt;parameter name=&quot;viewMode&quot; value=&quot;TABLET&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageObjectTest.DemoBlazeTestNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TabletView --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MobileView&quot;&gt;
+    &lt;parameter name=&quot;viewMode&quot; value=&quot;MOBILE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageObjectTest.DemoBlazeTestNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileView --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MaximizeView&quot;&gt;
+    &lt;parameter name=&quot;viewMode&quot; value=&quot;MAXIMIZE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageObjectTest.DemoBlazeTestNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MaximizeView --&gt;
+&lt;/suite&gt; &lt;!-- DemoBlazeSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoBlazeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TabletView (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileView (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MaximizeView (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoBlazeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoBlazeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoBlazeSuite');
+function tableData_DemoBlazeSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'RegisterWithExistingUser')
+data.setCell(0, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(0, 3, 20264);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RegisterWithEmptyField')
+data.setCell(1, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(1, 3, 20258);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PlaceOrderWithValidDetails')
+data.setCell(2, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(2, 3, 17438);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigationTest')
+data.setCell(3, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(3, 3, 12231);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigationTest')
+data.setCell(4, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(4, 3, 12211);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PlaceOrderWithValidDetails')
+data.setCell(5, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(5, 3, 12095);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginwithEmptyUserName')
+data.setCell(6, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(6, 3, 11014);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PlaceOrderWithValidDetails')
+data.setCell(7, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(7, 3, 10961);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddMultipleProdToCart')
+data.setCell(8, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(8, 3, 6588);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AddSingleProducttocart')
+data.setCell(9, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(9, 3, 6501);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'AddSingleProducttocart')
+data.setCell(10, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(10, 3, 6332);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddSingleProducttocart')
+data.setCell(11, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(11, 3, 6071);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AddMultipleProdToCart')
+data.setCell(12, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(12, 3, 5640);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'AddMultipleProdToCart')
+data.setCell(13, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(13, 3, 4798);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'navigationTest')
+data.setCell(14, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(14, 3, 4570);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Logintest')
+data.setCell(15, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(15, 3, 3341);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'BrowseProductCatalog')
+data.setCell(16, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(16, 3, 3238);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Logintest')
+data.setCell(17, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(17, 3, 3154);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'BrowseProductCatalog')
+data.setCell(18, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(18, 3, 3062);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'invalidUsernameandPwdTest')
+data.setCell(19, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(19, 3, 3011);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'BrowseProductCatalog')
+data.setCell(20, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(20, 3, 2969);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Logintest')
+data.setCell(21, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(21, 3, 2837);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invalidUsernameandPwdTest')
+data.setCell(22, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(22, 3, 2594);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'invalidUsernameandPwdTest')
+data.setCell(23, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(23, 3, 2499);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'RegisterWithExistingUser')
+data.setCell(24, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(24, 3, 2189);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'RegisterWithExistingUser')
+data.setCell(25, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(25, 3, 2146);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'RemoveProductFromCart')
+data.setCell(26, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(26, 3, 2062);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'RegisterationFromDB')
+data.setCell(27, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(27, 3, 2011);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'RegisterationFromDB')
+data.setCell(28, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(28, 3, 1953);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'RemoveProductFromCart')
+data.setCell(29, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(29, 3, 1800);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'RemoveProductFromCart')
+data.setCell(30, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(30, 3, 1767);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'RegisterationFromDB')
+data.setCell(31, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(31, 3, 1621);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'LoginAfterEmptyRegistration')
+data.setCell(32, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(32, 3, 1615);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'LoginAfterEmptyRegistration')
+data.setCell(33, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(33, 3, 1497);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'GetDataFromExcel')
+data.setCell(34, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(34, 3, 1251);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'RegisterWithEmptyField')
+data.setCell(35, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(35, 3, 1184);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'RegisterWithEmptyField')
+data.setCell(36, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(36, 3, 1139);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'LoginwithEmptyUserName')
+data.setCell(37, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(37, 3, 693);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'LoginwithEmptyUserName')
+data.setCell(38, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(38, 3, 673);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'GetDataFromExcel')
+data.setCell(39, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(39, 3, 108);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'GetDataFromExcel')
+data.setCell(40, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(40, 3, 62);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'LoginAfterEmptyRegistration')
+data.setCell(41, 2, 'PageObjectTest.DemoBlazeTestNG')
+data.setCell(41, 3, 0);
+window.suiteTableData['DemoBlazeSuite']= { tableData: data, tableDiv: 'times-div-DemoBlazeSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-DemoBlazeSuite">
+              </div> <!-- times-div-DemoBlazeSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoBlazeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoBlazeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageObjectTest.DemoBlazeTestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchChromeBrowser(TABLET)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">2487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logintest</span>
+                <span class="method-start">3608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">6452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameandPwdTest</span>
+                <span class="method-start">6576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">9174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginwithEmptyUserName</span>
+                <span class="method-start">9471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">10170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetDataFromExcel</span>
+                <span class="method-start">10262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">11520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterationFromDB</span>
+                <span class="method-start">11600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">13614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterWithExistingUser</span>
+                <span class="method-start">14005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">16156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterWithEmptyField</span>
+                <span class="method-start">16624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">17813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginAfterEmptyRegistration</span>
+                <span class="method-start">17913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">19532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddSingleProducttocart</span>
+                <span class="method-start">19871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">26376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoveProductFromCart</span>
+                <span class="method-start">26418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">28482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddMultipleProdToCart</span>
+                <span class="method-start">28583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">34230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderWithValidDetails</span>
+                <span class="method-start">34653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">46751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BrowseProductCatalog</span>
+                <span class="method-start">47084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">50054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigationTest</span>
+                <span class="method-start">50142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62357 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchChromeBrowser(MOBILE)</span>
+                <span class="method-start">62645 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">64095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logintest</span>
+                <span class="method-start">65398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">68740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameandPwdTest</span>
+                <span class="method-start">68830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">71842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginwithEmptyUserName</span>
+                <span class="method-start">71914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">82930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetDataFromExcel</span>
+                <span class="method-start">84791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">84855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterationFromDB</span>
+                <span class="method-start">84933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">86888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterWithExistingUser</span>
+                <span class="method-start">86972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">107238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterWithEmptyField</span>
+                <span class="method-start">109046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">129313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddSingleProducttocart</span>
+                <span class="method-start">131101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">137174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoveProductFromCart</span>
+                <span class="method-start">137255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">139055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddMultipleProdToCart</span>
+                <span class="method-start">139134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">145723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PlaceOrderWithValidDetails</span>
+                <span class="method-start">146084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">163523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BrowseProductCatalog</span>
+                <span class="method-start">165240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">168479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigationTest</span>
+                <span class="method-start">168557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">180789 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchChromeBrowser(MAXIMIZE)</span>
+                <span class="method-start">181004 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">182219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logintest</span>
+                <span class="method-start">183369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">186530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameandPwdTest</span>
+                <span class="method-start">186671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">189171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginwithEmptyUserName</span>
+                <span class="method-start">189262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">189936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetDataFromExcel</span>
+                <span class="method-start">190032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">190148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterationFromDB</span>
+                <span class="method-start">190285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">191910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterWithExistingUser</span>
+                <span class="method-start">192255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">194447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterWithEmptyField</span>
+                <span class="method-start">194859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">196000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginAfterEmptyRegistration</span>
+                <span class="method-start">196366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">197873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddSingleProducttocart</span>
+                <span class="method-start">198051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">204384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoveProductFromCart</span>
+                <span class="method-start">204478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">206247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddMultipleProdToCart</span>
+                <span class="method-start">206609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">211409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderWithValidDetails</span>
+                <span class="method-start">211806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">222771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BrowseProductCatalog</span>
+                <span class="method-start">223164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUrl</span>
+                <span class="method-start">226229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigationTest</span>
+                <span class="method-start">226354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">230925 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

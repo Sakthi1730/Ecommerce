@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="35" failed="6" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-22T19:29:38 IST" name="DemoBlazeSuite" finished-at="2025-09-22T19:33:29 IST" duration-ms="231256">
+    <groups>
+    </groups>
+    <test started-at="2025-09-22T19:29:38 IST" name="TabletView" finished-at="2025-09-22T19:30:40 IST" duration-ms="62634">
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <test-method is-config="true" signature="launchChromeBrowser(java.lang.String)[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:38 IST" name="launchChromeBrowser" finished-at="2025-09-22T19:29:40 IST" duration-ms="2452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TABLET]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeBrowser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:40 IST" name="getUrl" finished-at="2025-09-22T19:29:41 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Logintest()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:41 IST" name="Logintest" finished-at="2025-09-22T19:29:44 IST" duration-ms="2837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:44 IST" name="getUrl" finished-at="2025-09-22T19:29:44 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="invalidUsernameandPwdTest()[pri:1, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:44 IST" name="invalidUsernameandPwdTest" finished-at="2025-09-22T19:29:47 IST" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameandPwdTest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:47 IST" name="getUrl" finished-at="2025-09-22T19:29:47 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LoginwithEmptyUserName()[pri:2, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:47 IST" name="LoginwithEmptyUserName" finished-at="2025-09-22T19:29:48 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyUserName -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:48 IST" name="getUrl" finished-at="2025-09-22T19:29:48 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="GetDataFromExcel()[pri:3, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:48 IST" name="GetDataFromExcel" finished-at="2025-09-22T19:29:49 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDataFromExcel -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:49 IST" name="getUrl" finished-at="2025-09-22T19:29:49 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterationFromDB()[pri:4, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:49 IST" name="RegisterationFromDB" finished-at="2025-09-22T19:29:52 IST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationFromDB -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:52 IST" name="getUrl" finished-at="2025-09-22T19:29:52 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithExistingUser()[pri:5, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:52 IST" name="RegisterWithExistingUser" finished-at="2025-09-22T19:29:54 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithExistingUser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:54 IST" name="getUrl" finished-at="2025-09-22T19:29:55 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithEmptyField()[pri:6, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:55 IST" name="RegisterWithEmptyField" finished-at="2025-09-22T19:29:56 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithEmptyField -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:56 IST" name="getUrl" finished-at="2025-09-22T19:29:56 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LoginAfterEmptyRegistration()[pri:7, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:56 IST" name="LoginAfterEmptyRegistration" finished-at="2025-09-22T19:29:57 IST" depends-on-methods="PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAfterEmptyRegistration -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:57 IST" name="getUrl" finished-at="2025-09-22T19:29:58 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddSingleProducttocart()[pri:8, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:29:58 IST" name="AddSingleProducttocart" finished-at="2025-09-22T19:30:04 IST" duration-ms="6501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSingleProducttocart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:04 IST" name="getUrl" finished-at="2025-09-22T19:30:04 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RemoveProductFromCart()[pri:9, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:04 IST" name="RemoveProductFromCart" finished-at="2025-09-22T19:30:06 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:06 IST" name="getUrl" finished-at="2025-09-22T19:30:06 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddMultipleProdToCart()[pri:10, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:06 IST" name="AddMultipleProdToCart" finished-at="2025-09-22T19:30:12 IST" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleProdToCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:12 IST" name="getUrl" finished-at="2025-09-22T19:30:13 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="PlaceOrderWithValidDetails()[pri:11, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:13 IST" name="PlaceOrderWithValidDetails" finished-at="2025-09-22T19:30:25 IST" duration-ms="12095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderWithValidDetails -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:25 IST" name="getUrl" finished-at="2025-09-22T19:30:25 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="BrowseProductCatalog()[pri:12, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:25 IST" name="BrowseProductCatalog" finished-at="2025-09-22T19:30:28 IST" duration-ms="2969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseProductCatalog -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:28 IST" name="getUrl" finished-at="2025-09-22T19:30:28 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="navigationTest()[pri:13, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:28 IST" name="navigationTest" finished-at="2025-09-22T19:30:40 IST" duration-ms="12211" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0879cfea241f31a7f3d741d15e6e1afb)] -> xpath: //h5[text()="New message"]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58532/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0879cfea241f31a7f3d741d15e6e1afb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0879cfea241f31a7f3d741d15e6e1afb)] -> xpath: //h5[text()="New message"]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58532/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0879cfea241f31a7f3d741d15e6e1afb
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.CommonPage.NavigationUsingNavbar(CommonPage.java:72)
+at PageObjectTest.DemoBlazeTestNG.navigationTest(DemoBlazeTestNG.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5e5d171f]" started-at="2025-09-22T19:30:40 IST" name="closeBrowser" finished-at="2025-09-22T19:30:40 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </test> <!-- TabletView -->
+    <test started-at="2025-09-22T19:30:41 IST" name="MobileView" finished-at="2025-09-22T19:32:39 IST" duration-ms="118343">
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <test-method is-config="true" signature="launchChromeBrowser(java.lang.String)[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:41 IST" name="launchChromeBrowser" finished-at="2025-09-22T19:30:42 IST" duration-ms="1448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MOBILE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeBrowser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:42 IST" name="getUrl" finished-at="2025-09-22T19:30:43 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Logintest()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:43 IST" name="Logintest" finished-at="2025-09-22T19:30:47 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:47 IST" name="getUrl" finished-at="2025-09-22T19:30:47 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="invalidUsernameandPwdTest()[pri:1, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:47 IST" name="invalidUsernameandPwdTest" finished-at="2025-09-22T19:30:50 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameandPwdTest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:50 IST" name="getUrl" finished-at="2025-09-22T19:30:50 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LoginwithEmptyUserName()[pri:2, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:30:50 IST" name="LoginwithEmptyUserName" finished-at="2025-09-22T19:31:01 IST" duration-ms="11014" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //div[@Id="logInModal"]//div[@class='modal-footer']//button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //div[@Id="logInModal"]//div[@class='modal-footer']//button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.LoginPage.doLoginWithoutUserName(LoginPage.java:62)
+at PageObjectTest.DemoBlazeTestNG.LoginwithEmptyUserName(DemoBlazeTestNG.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyUserName -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:01 IST" name="getUrl" finished-at="2025-09-22T19:31:03 IST" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="GetDataFromExcel()[pri:3, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:03 IST" name="GetDataFromExcel" finished-at="2025-09-22T19:31:03 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDataFromExcel -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:03 IST" name="getUrl" finished-at="2025-09-22T19:31:03 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterationFromDB()[pri:4, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:03 IST" name="RegisterationFromDB" finished-at="2025-09-22T19:31:05 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationFromDB -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:05 IST" name="getUrl" finished-at="2025-09-22T19:31:05 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithExistingUser()[pri:5, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:05 IST" name="RegisterWithExistingUser" finished-at="2025-09-22T19:31:25 IST" duration-ms="20264" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: signInModal (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: signInModal (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.RegistrationPage.RegisterationWithexistingUSer(RegistrationPage.java:53)
+at PageObjectTest.DemoBlazeTestNG.RegisterWithExistingUser(DemoBlazeTestNG.java:126)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithExistingUser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:25 IST" name="getUrl" finished-at="2025-09-22T19:31:27 IST" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithEmptyField()[pri:6, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:27 IST" name="RegisterWithEmptyField" finished-at="2025-09-22T19:31:47 IST" duration-ms="20258" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //input[@id='sign-username']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //input[@id='sign-username']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.RegistrationPage.SignUpWithEmptyField(RegistrationPage.java:65)
+at PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField(DemoBlazeTestNG.java:137)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithEmptyField -->
+        <test-method signature="LoginAfterEmptyRegistration()[pri:7, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:47 IST" name="LoginAfterEmptyRegistration" finished-at="2025-09-22T19:31:47 IST" depends-on-methods="PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PageObjectTest.DemoBlazeTestNG.LoginAfterEmptyRegistration() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5 depends on not successfully finished methods 
+[PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PageObjectTest.DemoBlazeTestNG.LoginAfterEmptyRegistration() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5 depends on not successfully finished methods 
+[PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField() on instance PageObjectTest.DemoBlazeTestNG@5f8edcc5]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAfterEmptyRegistration -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:47 IST" name="getUrl" finished-at="2025-09-22T19:31:49 IST" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddSingleProducttocart()[pri:8, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:49 IST" name="AddSingleProducttocart" finished-at="2025-09-22T19:31:55 IST" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSingleProducttocart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:55 IST" name="getUrl" finished-at="2025-09-22T19:31:55 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RemoveProductFromCart()[pri:9, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:55 IST" name="RemoveProductFromCart" finished-at="2025-09-22T19:31:57 IST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:57 IST" name="getUrl" finished-at="2025-09-22T19:31:57 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddMultipleProdToCart()[pri:10, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:31:57 IST" name="AddMultipleProdToCart" finished-at="2025-09-22T19:32:04 IST" duration-ms="6588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleProdToCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:04 IST" name="getUrl" finished-at="2025-09-22T19:32:04 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="PlaceOrderWithValidDetails()[pri:11, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:04 IST" name="PlaceOrderWithValidDetails" finished-at="2025-09-22T19:32:21 IST" duration-ms="17438" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //input[@id="name"]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //input[@id="name"]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.OrderFunctionality.placeOrderwithvalidDetails(OrderFunctionality.java:61)
+at PageObjectTest.DemoBlazeTestNG.PlaceOrderWithValidDetails(DemoBlazeTestNG.java:169)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderWithValidDetails -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:21 IST" name="getUrl" finished-at="2025-09-22T19:32:23 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="BrowseProductCatalog()[pri:12, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:23 IST" name="BrowseProductCatalog" finished-at="2025-09-22T19:32:26 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseProductCatalog -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:26 IST" name="getUrl" finished-at="2025-09-22T19:32:26 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="navigationTest()[pri:13, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:26 IST" name="navigationTest" finished-at="2025-09-22T19:32:39 IST" duration-ms="12231" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //h5[text()="New message"]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (3eff1faba98c5499962457125729c959)] -> xpath: //h5[text()="New message"]/following::button[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\srisa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eff1faba98c5499962457125729c959
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObjectEcommerce.CommonPage.NavigationUsingNavbar(CommonPage.java:72)
+at PageObjectTest.DemoBlazeTestNG.navigationTest(DemoBlazeTestNG.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@5f8edcc5]" started-at="2025-09-22T19:32:39 IST" name="closeBrowser" finished-at="2025-09-22T19:32:39 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </test> <!-- MobileView -->
+    <test started-at="2025-09-22T19:32:39 IST" name="MaximizeView" finished-at="2025-09-22T19:33:29 IST" duration-ms="50222">
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <test-method is-config="true" signature="launchChromeBrowser(java.lang.String)[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:39 IST" name="launchChromeBrowser" finished-at="2025-09-22T19:32:40 IST" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAXIMIZE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeBrowser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:40 IST" name="getUrl" finished-at="2025-09-22T19:32:41 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Logintest()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:41 IST" name="Logintest" finished-at="2025-09-22T19:32:44 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:44 IST" name="getUrl" finished-at="2025-09-22T19:32:45 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="invalidUsernameandPwdTest()[pri:1, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:45 IST" name="invalidUsernameandPwdTest" finished-at="2025-09-22T19:32:47 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameandPwdTest -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:47 IST" name="getUrl" finished-at="2025-09-22T19:32:47 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LoginwithEmptyUserName()[pri:2, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:47 IST" name="LoginwithEmptyUserName" finished-at="2025-09-22T19:32:48 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyUserName -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:48 IST" name="getUrl" finished-at="2025-09-22T19:32:48 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="GetDataFromExcel()[pri:3, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:48 IST" name="GetDataFromExcel" finished-at="2025-09-22T19:32:48 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDataFromExcel -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:48 IST" name="getUrl" finished-at="2025-09-22T19:32:48 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterationFromDB()[pri:4, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:48 IST" name="RegisterationFromDB" finished-at="2025-09-22T19:32:50 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationFromDB -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:50 IST" name="getUrl" finished-at="2025-09-22T19:32:50 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithExistingUser()[pri:5, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:50 IST" name="RegisterWithExistingUser" finished-at="2025-09-22T19:32:52 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithExistingUser -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:52 IST" name="getUrl" finished-at="2025-09-22T19:32:53 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RegisterWithEmptyField()[pri:6, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:53 IST" name="RegisterWithEmptyField" finished-at="2025-09-22T19:32:54 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithEmptyField -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:54 IST" name="getUrl" finished-at="2025-09-22T19:32:54 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LoginAfterEmptyRegistration()[pri:7, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:54 IST" name="LoginAfterEmptyRegistration" finished-at="2025-09-22T19:32:56 IST" depends-on-methods="PageObjectTest.DemoBlazeTestNG.RegisterWithEmptyField" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAfterEmptyRegistration -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:56 IST" name="getUrl" finished-at="2025-09-22T19:32:56 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddSingleProducttocart()[pri:8, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:32:56 IST" name="AddSingleProducttocart" finished-at="2025-09-22T19:33:02 IST" duration-ms="6332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSingleProducttocart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:02 IST" name="getUrl" finished-at="2025-09-22T19:33:02 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="RemoveProductFromCart()[pri:9, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:02 IST" name="RemoveProductFromCart" finished-at="2025-09-22T19:33:04 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:04 IST" name="getUrl" finished-at="2025-09-22T19:33:04 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="AddMultipleProdToCart()[pri:10, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:04 IST" name="AddMultipleProdToCart" finished-at="2025-09-22T19:33:09 IST" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleProdToCart -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:09 IST" name="getUrl" finished-at="2025-09-22T19:33:10 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="PlaceOrderWithValidDetails()[pri:11, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:10 IST" name="PlaceOrderWithValidDetails" finished-at="2025-09-22T19:33:21 IST" duration-ms="10961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderWithValidDetails -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:21 IST" name="getUrl" finished-at="2025-09-22T19:33:21 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="BrowseProductCatalog()[pri:12, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:21 IST" name="BrowseProductCatalog" finished-at="2025-09-22T19:33:24 IST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseProductCatalog -->
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:24 IST" name="getUrl" finished-at="2025-09-22T19:33:24 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="navigationTest()[pri:13, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:24 IST" name="navigationTest" finished-at="2025-09-22T19:33:29 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PageObjectTest.DemoBlazeTestNG@1ebd319f]" started-at="2025-09-22T19:33:29 IST" name="closeBrowser" finished-at="2025-09-22T19:33:29 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </test> <!-- MaximizeView -->
+  </suite> <!-- DemoBlazeSuite -->
+</testng-results>
