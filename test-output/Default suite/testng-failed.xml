@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <methods>
+          <include name="Logintest"/>
+          <include name="PlaceOrderWithValidDetails"/>
+          <include name="AddMultipleProdToCart"/>
+          <include name="launchChromeBrowser"/>
+          <include name="RegisterWithEmptyField"/>
+          <include name="navigationTest"/>
+          <include name="getUrl"/>
+          <include name="RegisterationFromDB"/>
+          <include name="AddSingleProducttocart"/>
+          <include name="RemoveProductFromCart"/>
+          <include name="RegisterWithExistingUser"/>
+          <include name="BrowseProductCatalog"/>
+          <include name="LoginAfterEmptyRegistration"/>
+          <include name="closeBrowser"/>
+          <include name="LoginwithEmptyUserName"/>
+          <include name="invalidUsernameandPwdTest"/>
+        </methods>
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,35 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [DemoBlazeSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="TabletView(failed)">
+<suite thread-count="1" name="Failed suite [DemoBlazeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="PageObjectUtils.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" name="TabletView(failed)">
     <parameter name="viewMode" value="TABLET"/>
     <classes>
       <class name="PageObjectTest.DemoBlazeTestNG">
         <methods>
+          <include name="RemoveProductFromCart"/>
+          <include name="AddMultipleProdToCart"/>
+          <include name="PlaceOrderWithValidDetails"/>
+          <include name="BrowseProductCatalog"/>
           <include name="launchChromeBrowser"/>
           <include name="closeBrowser"/>
           <include name="navigationTest"/>
+          <include name="AddSingleProducttocart"/>
           <include name="getUrl"/>
         </methods>
       </class> <!-- PageObjectTest.DemoBlazeTestNG -->
     </classes>
   </test> <!-- TabletView(failed) -->
-  <test thread-count="5" name="MobileView(failed)">
+  <test thread-count="1" name="MobileView(failed)">
     <parameter name="viewMode" value="MOBILE"/>
     <classes>
       <class name="PageObjectTest.DemoBlazeTestNG">
         <methods>
-          <include name="RegisterWithExistingUser"/>
+          <include name="Logintest"/>
+          <include name="AddMultipleProdToCart"/>
           <include name="PlaceOrderWithValidDetails"/>
           <include name="launchChromeBrowser"/>
-          <include name="LoginAfterEmptyRegistration"/>
           <include name="RegisterWithEmptyField"/>
-          <include name="closeBrowser"/>
           <include name="navigationTest"/>
-          <include name="LoginwithEmptyUserName"/>
+          <include name="RegisterationFromDB"/>
           <include name="getUrl"/>
+          <include name="AddSingleProducttocart"/>
+          <include name="RemoveProductFromCart"/>
+          <include name="RegisterWithExistingUser"/>
+          <include name="BrowseProductCatalog"/>
+          <include name="LoginAfterEmptyRegistration"/>
+          <include name="closeBrowser"/>
+          <include name="LoginwithEmptyUserName"/>
+          <include name="invalidUsernameandPwdTest"/>
         </methods>
       </class> <!-- PageObjectTest.DemoBlazeTestNG -->
     </classes>
   </test> <!-- MobileView(failed) -->
+  <test thread-count="1" name="MaximizeView(failed)">
+    <parameter name="viewMode" value="MAXIMIZE"/>
+    <classes>
+      <class name="PageObjectTest.DemoBlazeTestNG">
+        <methods>
+          <include name="Logintest"/>
+          <include name="AddMultipleProdToCart"/>
+          <include name="PlaceOrderWithValidDetails"/>
+          <include name="launchChromeBrowser"/>
+          <include name="RegisterWithEmptyField"/>
+          <include name="navigationTest"/>
+          <include name="AddSingleProducttocart"/>
+          <include name="RegisterationFromDB"/>
+          <include name="getUrl"/>
+          <include name="RemoveProductFromCart"/>
+          <include name="RegisterWithExistingUser"/>
+          <include name="BrowseProductCatalog"/>
+          <include name="LoginAfterEmptyRegistration"/>
+          <include name="closeBrowser"/>
+          <include name="LoginwithEmptyUserName"/>
+          <include name="invalidUsernameandPwdTest"/>
+        </methods>
+      </class> <!-- PageObjectTest.DemoBlazeTestNG -->
+    </classes>
+  </test> <!-- MaximizeView(failed) -->
 </suite> <!-- Failed suite [DemoBlazeSuite] -->

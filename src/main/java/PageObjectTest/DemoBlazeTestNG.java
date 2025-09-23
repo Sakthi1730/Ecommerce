@@ -1,19 +1,13 @@
 package PageObjectTest;
 
-
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.Dimension;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.testng.annotations.*;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 
 import PageObjectEcommerce.CartPage;
 import PageObjectEcommerce.CommonPage;
@@ -24,10 +18,9 @@ import PageObjectEcommerce.RegistrationPage;
 import PageObjectUtils.DataBase;
 
 public class DemoBlazeTestNG {
+
     WebDriver driver;
     String Url = "https://www.demoblaze.com/";
-    ExtentReports extent;
-    ExtentTest test;
 
     LoginPage loginpage;
     CommonPage compage;
@@ -49,7 +42,6 @@ public class DemoBlazeTestNG {
         Orderfuction = new OrderFunctionality(driver);
         ProductBandN = new ProductBrowsingandNavigation(driver);
 
-        
         if ("TABLET".equalsIgnoreCase(viewMode)) {
             driver.manage().window().setSize(new Dimension(768, 1024));
         } else if ("MOBILE".equalsIgnoreCase(viewMode)) {
@@ -70,10 +62,8 @@ public class DemoBlazeTestNG {
         if (driver != null) {
             driver.quit();
         }
-       
     }
 
-    
     @Test(priority = 0)
     public void Logintest() throws InterruptedException {
         compage.clickLogin();
@@ -99,15 +89,6 @@ public class DemoBlazeTestNG {
     }
 
     @Test(priority = 3)
-    public void GetDataFromExcel() {
-        try {
-            DBhelper.ReadDataFromExcel("UserInfo");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test(priority = 4)
     public void RegisterationFromDB() {
         List<String> userDetails;
         compage.clickSignUp();
@@ -120,7 +101,7 @@ public class DemoBlazeTestNG {
         }
     }
 
-    @Test(priority = 5)
+    @Test(priority = 4)
     public void RegisterWithExistingUser() {
         compage.clickSignUp();
         regpage.RegisterationWithexistingUSer();
@@ -131,58 +112,52 @@ public class DemoBlazeTestNG {
         }
     }
 
-    @Test(priority = 6)
+    @Test(priority = 5)
     public void RegisterWithEmptyField() {
         compage.clickSignUp();
         regpage.SignUpWithEmptyField();
     }
 
-    @Test(priority = 7, dependsOnMethods = {"RegisterWithEmptyField"})
+    @Test(priority = 6, dependsOnMethods = {"RegisterWithEmptyField"})
     public void LoginAfterEmptyRegistration() throws InterruptedException {
         compage.clickLogin();
         loginpage.doLogin("Sakthi1712", "Password123");
     }
 
-    @Test(priority = 8)
+    @Test(priority = 7)
     public void AddSingleProducttocart() throws InterruptedException {
         cartpage.addSinglesProductToCart("Nokia lumia 1520");
         compage.ClickHomeButton();
     }
 
-    @Test(priority = 9)
+    @Test(priority = 8)
     public void RemoveProductFromCart() {
         compage.ClickCartButton();
         cartpage.RemoveProductFromcart("Nokia lumia 1520");
     }
 
-    @Test(priority = 10)
+    @Test(priority = 9)
     public void AddMultipleProdToCart() {
         compage.ClickHomeButton();
         cartpage.Addmultipleproduct("Nexus 6", "Samsung galaxy s6");
         compage.ClickCartButton();
     }
 
-    @Test(priority = 11)
+    @Test(priority = 10)
     public void PlaceOrderWithValidDetails() throws InterruptedException {
         compage.ClickCartButton();
         Orderfuction.placeOrderwithEmptyForm();
         Orderfuction.placeOrderwithvalidDetails();
     }
 
-    @Test(priority = 12)
+    @Test(priority = 11)
     public void BrowseProductCatalog() throws InterruptedException {
         ProductBandN.BrowseProduct();
         compage.ClickHomeButton();
     }
 
-    @Test(priority = 13)
+    @Test(priority = 12)
     public void navigationTest() throws InterruptedException {
         compage.NavigationUsingNavbar();
     }
-    
-   
-
-
-  
-
 }
